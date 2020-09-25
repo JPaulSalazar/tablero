@@ -1,0 +1,36 @@
+body{
+    background-color: tomato;   
+}
+.wrapper{
+    margin: 0 auto;
+    width: 560px;
+    height: 400px;
+}
+
+div{
+    div{
+        div{
+            width: $tamano;
+            height: $tamano;
+            float: left; 
+        }
+    }
+ 
+}
+.one:nth-child(odd) div:nth-child(odd) {
+  background-color: black;}
+
+.one:nth-child(odd) div:nth-child(even){
+  background-color: white; }
+
+.two:nth-child(even) div:nth-child(even){
+  background-color: black; }
+
+.two:nth-child(even) div:nth-child(odd){
+  background-color: white; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
